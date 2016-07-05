@@ -14,7 +14,7 @@ class MyMindController: UIViewController {
     @IBOutlet weak var scrollViewForMental: UIScrollView!
     
     var imageMentalStat = UIImage(named: "MentalStatus1.png")
-    var imageMentalStatSecond = UIImage(named: "MentalStatus2.png")
+    var imageMentalStatSecond = UIImage(named: "MentalStat2.png")
   
 
 
@@ -23,12 +23,14 @@ class MyMindController: UIViewController {
         let frameWidth = view.frame.size.width
         let frameHeight = view.frame.size.height
         scrollViewForMental.contentSize.width = frameWidth
-        scrollViewForMental.contentSize.height = 1000
+        scrollViewForMental.contentSize.height = (self.imageMentalStat?.size.height)! * 1.9
         let imageViewMentalStat = UIImageView(image: imageMentalStat)
-        imageViewMentalStat.frame = CGRect(x: 0, y: 0, width: frameWidth, height: 500)
+        imageViewMentalStat.frame = CGRect(x: 0, y: 0, width: frameWidth, height: self.imageMentalStat!.size.height)
+        imageViewMentalStat.contentMode = .ScaleAspectFill
         scrollViewForMental.addSubview(imageViewMentalStat)
         let imageViewMentalStatSecond = UIImageView(image: imageMentalStatSecond)
-        imageViewMentalStatSecond.frame = CGRect(x: 0, y: 500, width: frameWidth, height: 500)
+        imageViewMentalStatSecond.frame = CGRect(x: 0, y: self.imageMentalStat!.size.height, width: frameWidth, height: 500)
+        imageViewMentalStatSecond.contentMode = .ScaleAspectFill
         scrollViewForMental.addSubview(imageViewMentalStatSecond)
        
 

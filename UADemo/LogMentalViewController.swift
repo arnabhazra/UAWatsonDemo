@@ -10,7 +10,7 @@ import UIKit
 
 class LogMentalViewController: UIViewController {
     
-    var logMentalImage = UIImage(named: "Log_Mental_Submission.png")
+    var logMentalImage = UIImage(named: "LogMental.png")
     
     
 
@@ -19,9 +19,12 @@ class LogMentalViewController: UIViewController {
         let frameWidth = self.view.frame.size.width
         let frameheight = self.view.frame.size.height - (self.navigationController?.navigationBar.frame.size.height)!
         let imageView = UIImageView(image: logMentalImage)
-        imageView.frame = CGRect(x: 0, y: (self.navigationController?.navigationBar.frame.size.height)! + 15, width: frameWidth, height: frameheight)
+        self.navigationController?.navigationBarHidden = true // hiding navigation bar in Log mental Screen
+       // imageView.frame = CGRect(x: 0, y: (self.navigationController?.navigationBar.frame.size.height)! + 15, width: frameWidth, height: frameheight)
+        imageView.frame = CGRect(x: 0, y:10, width: frameWidth, height: self.logMentalImage!.size.height)
+        imageView.contentMode = .ScaleAspectFill
         self.view.addSubview(imageView)
-        let frameForRecordingButton = CGRect(x: frameWidth * 0.45, y: frameheight * 0.51, width: 30, height: 30)
+        let frameForRecordingButton = CGRect(x: frameWidth * 0.45, y: frameheight * 0.42, width: 35, height:40)
         let recordingButton = UIButton(frame: frameForRecordingButton)
         recordingButton.backgroundColor = UIColor.redColor()
         self.view.addSubview(recordingButton)

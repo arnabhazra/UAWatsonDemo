@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "MentalStat1.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "LogMental.png",
       "scale" : "2x"
     },
     {
