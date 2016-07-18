@@ -16,6 +16,18 @@
 		D1EB943C1D14665F00DC3395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1EB943A1D14665F00DC3395 /* LaunchScreen.storyboard */; };
 		D1EB94471D14665F00DC3395 /* UADemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EB94461D14665F00DC3395 /* UADemoTests.swift */; };
 		D1EB94521D14665F00DC3395 /* UADemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EB94511D14665F00DC3395 /* UADemoUITests.swift */; };
+		D1F246991D2C373C0056A7E7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F246981D2C373C0056A7E7 /* Alamofire.framework */; };
+		D1F2469B1D2C376B0056A7E7 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D1F246981D2C373C0056A7E7 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D1F2469D1D2C37A50056A7E7 /* ToneAnalyzerV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F2469C1D2C37A50056A7E7 /* ToneAnalyzerV3.framework */; };
+		D1F2469E1D2C37B00056A7E7 /* ToneAnalyzerV3.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D1F2469C1D2C37A50056A7E7 /* ToneAnalyzerV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D1F246A01D2C38050056A7E7 /* Freddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F2469F1D2C38050056A7E7 /* Freddy.framework */; };
+		D1F246A11D2C380E0056A7E7 /* Freddy.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D1F2469F1D2C38050056A7E7 /* Freddy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D1F246A31D2C383A0056A7E7 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F246A21D2C383A0056A7E7 /* RestKit.framework */; };
+		D1F246A41D2C38410056A7E7 /* RestKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D1F246A21D2C383A0056A7E7 /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D1F246A61D2C38AF0056A7E7 /* SpeechToTextV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F246A51D2C38AF0056A7E7 /* SpeechToTextV1.framework */; };
+		D1F246A71D2C38BA0056A7E7 /* SpeechToTextV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D1F246A51D2C38AF0056A7E7 /* SpeechToTextV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D1F246A91D2C38E10056A7E7 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F246A81D2C38E10056A7E7 /* Starscream.framework */; };
+		D1F246AA1D2C38E90056A7E7 /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D1F246A81D2C38E10056A7E7 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D1F2469A1D2C375B0056A7E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D1F246AA1D2C38E90056A7E7 /* Starscream.framework in CopyFiles */,
+				D1F246A71D2C38BA0056A7E7 /* SpeechToTextV1.framework in CopyFiles */,
+				D1F246A41D2C38410056A7E7 /* RestKit.framework in CopyFiles */,
+				D1F246A11D2C380E0056A7E7 /* Freddy.framework in CopyFiles */,
+				D1F2469E1D2C37B00056A7E7 /* ToneAnalyzerV3.framework in CopyFiles */,
+				D1F2469B1D2C376B0056A7E7 /* Alamofire.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		D164854D1D19AFF300370116 /* MyMindController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMindController.swift; sourceTree = "<group>"; };
 		D18FC0851D217C9B00197C46 /* LogMentalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogMentalViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +81,12 @@
 		D1EB944D1D14665F00DC3395 /* UADemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UADemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1EB94511D14665F00DC3395 /* UADemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UADemoUITests.swift; sourceTree = "<group>"; };
 		D1EB94531D14665F00DC3395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1F246981D2C373C0056A7E7 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		D1F2469C1D2C37A50056A7E7 /* ToneAnalyzerV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToneAnalyzerV3.framework; path = Carthage/Build/iOS/ToneAnalyzerV3.framework; sourceTree = "<group>"; };
+		D1F2469F1D2C38050056A7E7 /* Freddy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Freddy.framework; path = Carthage/Build/iOS/Freddy.framework; sourceTree = "<group>"; };
+		D1F246A21D2C383A0056A7E7 /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = "<group>"; };
+		D1F246A51D2C38AF0056A7E7 /* SpeechToTextV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechToTextV1.framework; path = Carthage/Build/iOS/SpeechToTextV1.framework; sourceTree = "<group>"; };
+		D1F246A81D2C38E10056A7E7 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F246991D2C373C0056A7E7 /* Alamofire.framework in Frameworks */,
+				D1F246A91D2C38E10056A7E7 /* Starscream.framework in Frameworks */,
+				D1F246A61D2C38AF0056A7E7 /* SpeechToTextV1.framework in Frameworks */,
+				D1F246A01D2C38050056A7E7 /* Freddy.framework in Frameworks */,
+				D1F2469D1D2C37A50056A7E7 /* ToneAnalyzerV3.framework in Frameworks */,
+				D1F246A31D2C383A0056A7E7 /* RestKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +123,7 @@
 		D1EB94251D14665F00DC3395 = {
 			isa = PBXGroup;
 			children = (
+				D1F246971D2C37200056A7E7 /* Frameworks */,
 				D1EB94301D14665F00DC3395 /* UADemo */,
 				D1EB94451D14665F00DC3395 /* UADemoTests */,
 				D1EB94501D14665F00DC3395 /* UADemoUITests */,
@@ -131,6 +174,19 @@
 			path = UADemoUITests;
 			sourceTree = "<group>";
 		};
+		D1F246971D2C37200056A7E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1F246A81D2C38E10056A7E7 /* Starscream.framework */,
+				D1F246A51D2C38AF0056A7E7 /* SpeechToTextV1.framework */,
+				D1F246A21D2C383A0056A7E7 /* RestKit.framework */,
+				D1F2469F1D2C38050056A7E7 /* Freddy.framework */,
+				D1F2469C1D2C37A50056A7E7 /* ToneAnalyzerV3.framework */,
+				D1F246981D2C373C0056A7E7 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,6 +197,7 @@
 				D1EB942A1D14665F00DC3395 /* Sources */,
 				D1EB942B1D14665F00DC3395 /* Frameworks */,
 				D1EB942C1D14665F00DC3395 /* Resources */,
+				D1F2469A1D2C375B0056A7E7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -411,10 +468,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = UADemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = arnab.UADemo;
+				PRODUCT_BUNDLE_IDENTIFIER = arnab.UADemoArnab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -423,10 +486,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = UADemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = arnab.UADemo;
+				PRODUCT_BUNDLE_IDENTIFIER = arnab.UADemoArnab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
